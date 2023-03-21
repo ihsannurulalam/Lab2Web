@@ -25,7 +25,8 @@
     ?>
 ```
 
-- hasil  ![Gambar 02](Image/hello.png)
+- hasil 
+ ![Gambar 02](Image/hello.png)
 
 ### Menggunakan Variable
 - variable.
@@ -38,7 +39,8 @@
     echo "Nama : $nama";
     ?>
 ```
-- nya  ![Gambar 03](Image/variable.png)
+- nya  
+![Gambar 03](Image/variable.png)
 
 ### Predifine Varible
 -  Predifine Varible. 
@@ -48,7 +50,8 @@
     echo 'Selamat Datang '. $_GET['nama'];
     ?>
 ```
-- hasil  ![Gambar 04](Image/predifine.png)
+- hasil  
+![Gambar 04](Image/predifine.png)
 - untuk hasil diatas bisa di akses degan link seperti berikut http://localhost/pw2-03/dasar_php.php?nama=Ihsan
 
 ### Form Input
@@ -64,8 +67,10 @@
     echo 'Selamat Datang ' . $_POST['nama'];
     ?>
 ```
-- hasil ![Gambar 05](Image/inputberhasil.png)
-- untuk memunculkan hasil nama isi terhbih dahulu kolom formulirnya ![Gambar 06](Image/inputerror.png)
+- hasil 
+![Gambar 05](Image/inputberhasil.png)
+- untuk memunculkan hasil nama isi terhbih dahulu kolom formulirnya
+![Gambar 06](Image/inputerror.png)
 
 ### Operator
 - Operator. 
@@ -79,7 +84,8 @@
     echo "Gaji yang dibawa pulang = Rp. $thp";
     ?>
 ```
-- hasil  ![Gambar 07](Image/operator.png)
+- hasil  
+![Gambar 07](Image/operator.png)
 
 ### IF
 -  IF. 
@@ -98,7 +104,8 @@
     }
     ?>
 ```
--  hasil ![Gambar 08](Image/if.png)
+-  hasil 
+![Gambar 08](Image/if.png)
 
 ### Switch
 -  Switch. 
@@ -120,7 +127,8 @@
             echo "Sabtu";
     }?>
 ```
--  hasil  ![Gambar 09](Image/switch.png)
+-  hasil  
+![Gambar 09](Image/switch.png)
 
 ### Perulangan For
 - For. 
@@ -138,7 +146,8 @@
     }
     ?>
 ```
-- hasil ![Gambar 10](Image/for.png)
+- hasil 
+![Gambar 10](Image/for.png)
 
 ### Perulangan While
 - While. 
@@ -153,7 +162,8 @@
     }
     ?>
 ```
-- hasil ![Gambar 11](Image/while.png)
+- hasil 
+![Gambar 11](Image/while.png)
 
 ### Perulangan dowhile
 -  dowhile. 
@@ -169,7 +179,8 @@
     while($i<=10);
     ?>
 ```
-- hasil ![Gambar 12](Image/dowhile.png)
+- hasil 
+![Gambar 12](Image/dowhile.png)
 
 
 # END
