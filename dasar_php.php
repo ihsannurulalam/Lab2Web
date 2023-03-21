@@ -1,59 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP Dasar</title>
+</head>
+
 <body>
-    <table border="1">
-        <tr>
-            <th> Nama</th>
-            <th>NIM</th>
-            <th>Kelas</th>
-        </tr>
-        <tr>
-            <td>Ihsan Nurul Alam</td>
-            <td>312110162</td>
-            <td>TI.21.A.1</td>
-        </tr>
-    </table>
-</body>
-
-# Tugas Pratikum 02
-### Penjelasan
-
-### Pengenalan PHP
-- Buat file dengan akhiran (.php)<p>
-```bash
+    <!--PHP Dasar-->
     <h2>Belajar PHP Dasar</h2>
     <?php
     echo "Hello World";
     ?>
-```
+    <p>
 
-- hasil  ![Gambar 02](Image/hello.png)
-
-### Menggunakan Variable
-- variable.
-```bash
+    <!--Menggunakan Variable-->
     <h2>Menggunakan Variable</h2>
     <?php
-    $nim = "312110162";
-    $nama = 'Ihsan Nurul Alam';
+    $nim = "312110056";
+    $nama = 'Ahmad Syukron';
     echo "NIM : ". $nim . "<br>";
     echo "Nama : $nama";
     ?>
-```
-- nya  ![Gambar 03](Image/variable.png)
+    <p>
+    
 
-### Predifine Varible
--  Predifine Varible. 
-```bash
+    <!--Predifine Variable-->
     <h2>Predifine Variable</h2>
     <?php
     echo 'Selamat Datang '. $_GET['nama'];
     ?>
-```
-- hasil  ![Gambar 04](Image/predifine.png)
-- untuk hasil diatas bisa di akses degan link seperti berikut http://localhost/pw2-03/dasar_php.php?nama=Ihsan
+    <p>
+    
 
-### Form Input
--  Form Input.
-```bash
+    <!--Form Input-->
     <h2>Form Input</h2>
     <form method="post">
         <label for="">Nama: </label>
@@ -63,13 +44,10 @@
     <?php
     echo 'Selamat Datang ' . $_POST['nama'];
     ?>
-```
-- hasil ![Gambar 05](Image/inputberhasil.png)
-- untuk memunculkan hasil nama isi terhbih dahulu kolom formulirnya ![Gambar 06](Image/inputerror.png)
+    <p>
 
-### Operator
-- Operator. 
-```bash
+
+    <!--operator-->
     <h2>Operator</h2>
     <?php
     $gaji = 1000000;
@@ -78,12 +56,10 @@
     echo "Gaji sebelum pajak = Rp. $gaji <br>";
     echo "Gaji yang dibawa pulang = Rp. $thp";
     ?>
-```
-- hasil  ![Gambar 07](Image/operator.png)
+    <p>
 
-### IF
--  IF. 
-```bash
+
+    <!--Kondisi IF-->
     <h2>Kondisi IF</h2>
     <?php
     $nama_hari = date("1");
@@ -97,12 +73,10 @@
         echo "Selasa";
     }
     ?>
-```
--  hasil ![Gambar 08](Image/if.png)
+    <p>
 
-### Switch
--  Switch. 
-```bash
+
+    <!--Kondisi Switch-->
     <h2>Kondisi Switch</h2>
     <?php
     $nama_hari = date("1");
@@ -119,12 +93,10 @@
         default:
             echo "Sabtu";
     }?>
-```
--  hasil  ![Gambar 09](Image/switch.png)
+    <p>
 
-### Perulangan For
-- For. 
-```bash
+    
+    <!--Perulangan for-->
     <h2>Perulangan For</h2>
     <?php
     echo "Perulangan 1 sampai 10 <br/>";
@@ -137,12 +109,10 @@
         echo "Perulangan ke: ".$i.'<br/>';
     }
     ?>
-```
-- hasil ![Gambar 10](Image/for.png)
+    <p>
 
-### Perulangan While
-- While. 
-```bash
+
+    <!--Perulangan While-->
     <h2>Perulangan While</h2>
     <?php
     echo "Perulangan 1 sampai 10 <br/>";
@@ -152,12 +122,10 @@
         $i++;
     }
     ?>
-```
-- hasil ![Gambar 11](Image/while.png)
+    <p>
 
-### Perulangan dowhile
--  dowhile. 
-```bash
+
+    <!--Perulangan dowhile-->
     <h2>Perulangan dowhile</h2>
     <?php
     echo "Perulangan 1 sampai 10 <br/>";
@@ -168,8 +136,6 @@
     }
     while($i<=10);
     ?>
-```
-- hasil ![Gambar 12](Image/dowhile.png)
 
-
-# END
+</body>
+</html>
