@@ -25,8 +25,7 @@
     ?>
 ```
 
-- hasil 
- ![Gambar 02](Image/hello.png)
+- hasil ![Gambar 02](image/hello.png)
 
 ### Menggunakan Variable
 - variable.
