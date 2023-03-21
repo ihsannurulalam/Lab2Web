@@ -39,7 +39,7 @@
     ?>
 ```
 - nya  
-![Gambar 03](Image/variable.png)
+![Gambar 03](image/variable.png)
 
 ### Predifine Varible
 -  Predifine Varible. 
@@ -50,7 +50,7 @@
     ?>
 ```
 - hasil  
-![Gambar 04](Image/predifine.png)
+![Gambar 04](image/predifine.png)
 - untuk hasil diatas bisa di akses degan link seperti berikut http://localhost/pw2-03/dasar_php.php?nama=Ihsan
 
 ### Form Input
@@ -67,9 +67,9 @@
     ?>
 ```
 - hasil 
-![Gambar 05](Image/inputberhasil.png)
+![Gambar 05](image/inputberhasil.png)
 - untuk memunculkan hasil nama isi terhbih dahulu kolom formulirnya
-![Gambar 06](Image/inputerror.png)
+![Gambar 06](image/inputerror.png)
 
 ### Operator
 - Operator. 
@@ -84,7 +84,7 @@
     ?>
 ```
 - hasil  
-![Gambar 07](Image/operator.png)
+![Gambar 07](image/operator.png)
 
 ### IF
 -  IF. 
@@ -104,7 +104,7 @@
     ?>
 ```
 -  hasil 
-![Gambar 08](Image/if.png)
+![Gambar 08](image/if.png)
 
 ### Switch
 -  Switch. 
@@ -127,7 +127,7 @@
     }?>
 ```
 -  hasil  
-![Gambar 09](Image/switch.png)
+![Gambar 09](image/switch.png)
 
 ### Perulangan For
 - For. 
@@ -146,7 +146,7 @@
     ?>
 ```
 - hasil 
-![Gambar 10](Image/for.png)
+![Gambar 10](image/for.png)
 
 ### Perulangan While
 - While. 
@@ -162,7 +162,7 @@
     ?>
 ```
 - hasil 
-![Gambar 11](Image/while.png)
+![Gambar 11](image/while.png)
 
 ### Perulangan dowhile
 -  dowhile. 
@@ -179,7 +179,7 @@
     ?>
 ```
 - hasil 
-![Gambar 12](Image/dowhile.png)
+![Gambar 12](image/dowhile.png)
 
 
 # END
